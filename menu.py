@@ -11,7 +11,9 @@ class Menu:
 
 
     def display(self):
-        # TODO: ADD Content
+        # TODO: Add Border to PLay button
+        # TODO: Detect mouse click
+        # TODO: Clear the screen
 
         font = pygame.font.SysFont("sans-serif",100)
         text_render = font.render(self.text,True, "green", "blue")
