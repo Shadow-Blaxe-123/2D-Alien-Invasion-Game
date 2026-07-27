@@ -26,3 +26,5 @@ class Menu:
         self.screen.blit(text_render, text_rect)
         pygame.display.flip()
 
+
+
