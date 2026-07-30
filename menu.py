@@ -26,5 +26,8 @@ class Menu:
         self.screen.blit(text_render, text_rect)
         pygame.display.flip()
 
-
+    def remove(self, bg: SurfaceType):
+        self.screen.blit(bg, (0,0))
+        pygame.display.flip()
+        print("h")
 
